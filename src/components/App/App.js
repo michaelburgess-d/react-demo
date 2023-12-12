@@ -7,8 +7,9 @@ function App() {
   
   return (
     <div className="App">
-        <h1 className="AppHeading">Hello {name}</h1>
-        <p> <Like /> Some text</p>
+    <h1 className="AppHeading">Hello {name}</h1>
+    
+        <p> Some <Like />   text</p>
     </div>
   );
 }

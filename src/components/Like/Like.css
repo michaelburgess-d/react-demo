@@ -1,8 +1,13 @@
-.LikeButton {
+.LikeButton  button {
     font-size: 3em;
+    background-color: transparent;
+    border: none;
 }
 
+.LikeButton .liked {
+    color: red;
+}
 
-.LikeButton:hover {
+.LikeButton .notliked {
     color: darkorchid;
 }
