@@ -1,0 +1,47 @@
+.SocialMediaButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    /* Adjust the width as needed */
+    margin: 20px auto;
+}
+
+.button {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #f0f0f0;
+}
+
+.liked {
+    background-color: #ff6b6b;
+    /* Red for liked state */
+    color: white;
+}
+
+.notliked {
+    background-color: #f0f0f0;
+    /* Default color for not liked state */
+    color: #333;
+}
+
+.shared {
+    background-color: #66cdaa;
+    /* Green for shared state */
+    color: white;
+}
+
+.notshared {
+    background-color: #f0f0f0;
+    /* Default color for not shared state */
+    color: #333;
+}
+
+/* Add styles for more social media buttons here */

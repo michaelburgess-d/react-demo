@@ -1,5 +1,6 @@
 import './App.css';
 import Like from '../Like/Like.js';
+import SocialMediaButtons from '../SocialMediaButtons/SocialMediaButtons.js';
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
     <h1 className="AppHeading">Hello {name}</h1>
     
-        <p> Some <Like />   text</p>
+        <p> Some <SocialMediaButtons />   text</p>
     </div>
   );
 }
