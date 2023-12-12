@@ -1,0 +1,8 @@
+.LikeButton {
+    font-size: 3em;
+}
+
+
+.LikeButton:hover {
+    color: darkorchid;
+}
